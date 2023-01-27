@@ -13,6 +13,10 @@
 
 //CODE HERE
 
+function helloWorld(){
+  console.log('Hello, World!')
+}
+
 
 ////////////////// PROBLEM 2 ////////////////////
 
@@ -22,7 +26,13 @@
 
 //CODE HERE
 
+const jsNinja = () => {
+  'I am a Javascript ninja!'
+} 
 
+  
+  
+  
 ////////////////// PROBLEM 3 ////////////////////
 /*
   Create a function called printName which takes in a person's name and console logs it.
@@ -32,6 +42,11 @@
 
 //CODE HERE
 
+function printName(name) {
+  console.log(name)
+}
+
+printName('Dwayne') // Dwayne
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -45,6 +60,11 @@
 
 //CODE HERE
 
+function greeting(name) {
+  console.log('Hello, ' + name)
+}
+
+greeting('Dwayne')//  Hello, Dwayne
 
 ////////////////// PROBLEM 5 ////////////////////
 
@@ -58,6 +78,21 @@
 */
 
 //CODE HERE
+
+const compareNums = (num1, num2) => {
+
+  if (num1 > num2) {
+    num1
+    console.log(`${num1} is greater than ${num2}!`)
+  } else if (num1 < num2) {
+    num2
+    console.log(`${num2} is greater than ${num1}!`)
+  } else {
+    num1
+    console.log(`Both ${num1} and ${num2} are the same!`)
+  }
+}
+
 
 
 ////////////////// PROBLEM 6 ////////////////////
